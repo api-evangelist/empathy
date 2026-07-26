@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.empathy.com/.well-known/
+host: https://www.empathy.com
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: empathy-security.txt
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only /.well-known/security.txt is published (Contact: security@empathy.com;
+  Expires field is stale — 2025-11-30). No OIDC/OAuth discovery, api-catalog, or
+  ai-plugin surfaces. app.empathy.com (login app) also returns 404 for
+  openid-configuration. Empathy exposes no public developer/API surface.

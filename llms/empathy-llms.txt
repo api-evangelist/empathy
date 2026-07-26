@@ -1,0 +1,26 @@
+# Empathy
+
+> Empathy is a support platform that helps organizations guide people through loss, leave, and legacy moments — combining AI with human care to serve individuals navigating grief, estate planning, and life transitions. It sells to life insurers, banks and wealth managers, employers, health plans, and benefit consultants (50M+ individuals covered). This is an API Evangelist network profile generated from public web sources; Empathy publishes no public developer or API surface as of 2026-07-19.
+
+## Products
+- [LifeVault](https://www.empathy.com/): Digital estate planning — legally compliant documents plus a centralized repository for financial assets and directives
+- [Loss Support](https://www.empathy.com/): Assistance for beneficiaries navigating claims and grief
+- [Leave Support](https://www.empathy.com/): Employee support during difficult life events
+- [Client Connect](https://www.empathy.com/): Portal for advisors to manage relationships
+
+## Resources
+- [Website](https://www.empathy.com/)
+- [Login / App](https://app.empathy.com)
+- [Knowledge Base](https://www.empathy.com/learn): Curated guidance on probate, wills, grief, and funerals plus a glossary
+- [Blog / Articles](https://www.empathy.com/blog): Thought leadership on loss, financial planning, and life transitions
+- [News Room](https://www.empathy.com/news-room): Press highlights and announcements
+- [Careers](https://www.empathy.com/careers)
+
+## Legal & Security
+- [Terms of Service](https://www.empathy.com/legal/terms)
+- [Privacy Policy](https://www.empathy.com/legal/privacy)
+- [security.txt](https://www.empathy.com/.well-known/security.txt): Security contact security@empathy.com
+
+## Notes
+- No public API, developer portal, OpenAPI, SDKs, CLI, MCP server, or webhooks were found.
+- Backed by General Catalyst and Index Ventures.

@@ -1,8 +1,16 @@
 aid: empathy
 name: Empathy
-description: Empathy is a company surfaced as a portfolio company of general-catalyst, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Empathy is a support platform that helps organizations guide people through
+  loss, leave, and legacy moments, combining AI with human care to serve
+  individuals navigating grief, estate planning, and major life transitions. Its
+  products include LifeVault digital estate planning, Loss Support for
+  beneficiaries handling claims and grief, Leave Support for employees during
+  difficult life events, and Client Connect for advisors. Empathy sells to life
+  insurance companies, banks and wealth managers, employers, health plans, and
+  benefit consultants, covering 50M+ individuals. Backed by General Catalyst and
+  Index Ventures. As of this profile Empathy publishes no public developer or
+  API surface.
 url: https://raw.githubusercontent.com/api-evangelist/empathy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,30 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.empathy.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Estate Planning
+- Grief Support
+- Insurance
+- Wealth Management
+- Employee Benefits
+- Bereavement
+- Financial Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.empathy.com/
+- type: SignUp
+  url: https://app.empathy.com
+- type: Login
+  url: https://app.empathy.com
+- type: HelpCenter
+  url: https://www.empathy.com/learn
+- type: Blog
+  url: https://www.empathy.com/blog
+- type: TermsOfService
+  url: https://www.empathy.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.empathy.com/legal/privacy
+- type: SecurityTxt
+  url: well-known/empathy-security.txt
+- type: WellKnown
+  url: well-known/empathy-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/empathy-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.empathy.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/empathy-domain-security.yml
+- type: LLMsTxt
+  url: llms/empathy-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
