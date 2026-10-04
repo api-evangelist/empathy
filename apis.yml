@@ -53,7 +53,7 @@ tags:
 - Wealth Management
 - Employee Benefits
 - Bereavement
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Estate Planning
@@ -63,6 +63,7 @@ tags_raw:
 - Employee Benefits
 - Bereavement
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
